@@ -1,0 +1,17 @@
+
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#04030a;color:#fff}
+body:before{content:'';position:fixed;inset:0;background:url('assets/hero-bg.jpg') center/cover no-repeat;opacity:.35;z-index:-2}
+body:after{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(4,3,10,.4),#04030a);z-index:-1}
+.logo{position:fixed;top:20px;left:30px;color:#fff;text-decoration:none;font-size:2rem;font-weight:bold;z-index:10}
+nav{position:fixed;top:25px;right:30px;z-index:10} nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+.hero h1{font-size:clamp(4rem,10vw,8rem);margin:0;text-shadow:0 0 30px #9f6bff}
+.hero p{letter-spacing:8px;color:#ddd}
+.btn{display:inline-block;padding:16px 34px;border-radius:50px;text-decoration:none;color:#fff;background:linear-gradient(135deg,#7B5CFF,#FF3CAC);margin:10px}
+section{padding:70px 6%}
+.panel{background:rgba(255,255,255,.05);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.1);border-radius:28px;padding:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.artist-card{position:relative;height:320px;border-radius:20px;overflow:hidden;cursor:pointer;background:#111}
+.artist-card img{width:100%;height:100%;object-fit:cover}
+.artist-card .overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.95),transparent 60%);display:flex;align-items:end;padding:20px}
+footer{text-align:center;padding:40px;color:#999}
