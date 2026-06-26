@@ -1,6 +1,6 @@
 
 *{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#04030a;color:#fff}
-body:before{content:'';position:fixed;inset:0;background:url('assets/hero-bg.jpg') center/cover no-repeat;opacity:.35;z-index:-2}
+body:before{content:'';position:fixed;inset:0;background:url('assets/hero-bg.webp') center/cover no-repeat;opacity:.35;z-index:-2}
 body:after{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(4,3,10,.4),#04030a);z-index:-1}
 .logo{position:fixed;top:20px;left:30px;color:#fff;text-decoration:none;font-size:2rem;font-weight:bold;z-index:10}
 nav{position:fixed;top:25px;right:30px;z-index:10} nav a{color:#fff;text-decoration:none;margin-left:20px}
